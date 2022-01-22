@@ -40,6 +40,7 @@ h1 {
 .nav-list {
     display: flex;
     justify-content: center;
+    gap: 25px;
 }
 
 .nav-list a {
@@ -50,41 +51,11 @@ h1 {
     list-style-type: none;
 }
 
-#ContactInfo {
-    width: auto;
-    padding-top: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    font-size: 24px;
-    box-shadow: 0px 0px 15px var(--theme-blue), 0px 0px 15px var(--theme-blue);
-    background: url(https://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel6-900x675.jpg);
-}
-
-.ContactLinks li {
-    list-style-type: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.ContactLinks a {
-    color: var(--theme-black);
-    font-size: 24px;
-}
-
-.ContactLinks a:hover {
-    color: var(--theme-white);
-    background-color: var(--theme-blue);
-    border-radius: 50px;
-    box-shadow: 0px 0px 15px var(--theme-white), 0px 0px 15px var(--theme-white);
-}
-
 #AboutMe {
     margin-top: 100px;
     display: flex;
     width: auto;
     height: auto;
-    gap: 20px;
 }
 
 #AboutMe p {
@@ -95,23 +66,26 @@ h1 {
 
 #AboutMeIntro {
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     background: url(https://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel6-900x675.jpg);
     box-shadow: 0px 0px 15px var(--theme-blue), 0px 0px 15px var(--theme-blue);
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #AboutMeIntro h1 {
-    background: var(--theme-blue);
-    color: var(--theme-white);
+    color: var(--theme-blue);
     border-radius: 50px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    text-shadow: 0px 0px 6px var(--theme-black), 0px 0px 6px var(--theme-black);
+    font-weight: bold;
+    font-size: 90px;
+    text-shadow: 0px 0px 12px var(--theme-white), 0px 0px 12px var(--theme-white);
 }
 
 #AboutMeIntro p {
@@ -122,7 +96,7 @@ h1 {
 }
 
 .profile-photo {
-    width: 225px;
+    width: 275px;
 }
 
 .profile-photo-border {
@@ -164,11 +138,11 @@ h1 {
 
 .projectsgrid {
     padding: 20px;
-    background: url(https://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel6-900x675.jpg);
     height: auto;
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    background: url(https://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel6-900x675.jpg);
     grid-area: content;
     display: grid;
     grid-template-columns: repeat(5, auto);
