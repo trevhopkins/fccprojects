@@ -53,6 +53,8 @@ h1 {
 #ContactInfo {
     width: auto;
     padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
     font-size: 24px;
     box-shadow: 0px 0px 15px var(--theme-blue), 0px 0px 15px var(--theme-blue);
@@ -67,7 +69,7 @@ h1 {
 
 .ContactLinks a {
     color: var(--theme-black);
-    font-size: 24px;
+    font-size: 36px;
 }
 
 .ContactLinks a:hover {
