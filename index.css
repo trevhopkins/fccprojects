@@ -85,6 +85,8 @@ h1 {
 
 #AboutMe p {
     font-size: 24px;
+    text-align: center;
+    padding: 40px;
 }
 
 #AboutMeIntro {
