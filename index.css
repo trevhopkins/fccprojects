@@ -1,0 +1,172 @@
+:root {
+    --theme-white: #fff;
+    --theme-blue: #2B6BE2;
+    --theme-black: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    background-color: var(--theme-blue);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+a {
+    color: var(--theme-white);
+    margin-right: 50px;
+    padding: 10px;    
+}
+
+a, u {
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: var(--theme-blue);
+    background-color: var(--theme-white);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list a {
+    font-size: 35px;
+}
+
+.nav-list li {
+    list-style-type: none;
+}
+
+#ContactInfo {
+    width: auto;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0px 0px 15px var(--theme-blue), 0px 0px 15px var(--theme-blue);
+    background: url(https://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel6-900x675.jpg);
+}
+
+.ContactLinks li {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ContactLinks a {
+    color: var(--theme-black);
+    font-size: 24px;
+}
+
+.ContactLinks a:hover {
+    color: var(--theme-white);
+    background-color: var(--theme-blue);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#AboutMe {
+    margin-top: 100px;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+#AboutMe p {
+    font-size: 24px;
+}
+
+#AboutMeIntro {
+    width: auto;
+    margin-left: 6%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+#AboutMeIntro h1 {
+    background: var(--theme-blue);
+    color: var(--theme-white);
+    border-radius: 50px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0px 0px 6px var(--theme-black), 0px 0px 6px var(--theme-black);
+}
+
+.profile-photo {
+    width: 225px;
+}
+
+.profile-photo-border {
+    border-width: 15px;
+    border-style: ridge;
+    border-color: var(--theme-blue);
+    border-radius: 50%;
+}
+
+#MyProjectsArea {
+    display: grid;
+    width: auto;
+    margin-top: 25px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    grid-template-areas:
+        "header"
+        "content";
+}
+
+.myprojectsheader {
+    width: 60%;
+    grid-area: header;
+    text-align: center;
+    margin: auto;
+}
+
+.myprojectsheader h1 {
+    color: var(--theme-white);
+    background: var(--theme-blue);
+    border-radius: 50px;
+    text-shadow: 0px 0px 6px var(--theme-black), 0px 0px 6px var(--theme-black);
+    width: auto;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projectsgrid {
+    padding: 20px;
+    background: url(https://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel6-900x675.jpg);
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: content;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 5px;
+    box-shadow: 0px 0px 15px var(--theme-blue), 0px 0px 15px var(--theme-blue);
+}
+
+.projectsgrid a, h4 {
+    color: #000;
+    font-size: 24px;
+}
+
+body {
+    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+}
+
