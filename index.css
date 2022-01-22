@@ -76,6 +76,7 @@ h1 {
     color: var(--theme-white);
     background-color: var(--theme-blue);
     border-radius: 50px;
+    box-shadow: 0px 0px 15px var(--theme-white), 0px 0px 15px var(--theme-white);
 }
 
 #AboutMe {
@@ -96,6 +97,10 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background: url(https://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel6-900x675.jpg);
+    box-shadow: 0px 0px 15px var(--theme-blue), 0px 0px 15px var(--theme-blue);
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #AboutMeIntro h1 {
@@ -106,6 +111,13 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     text-shadow: 0px 0px 6px var(--theme-black), 0px 0px 6px var(--theme-black);
+}
+
+#AboutMeIntro p {
+    font-size: 36px;
+    background: var(--theme-white);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px var(--theme-blue), 0px 0px 15px var(--theme-blue);
 }
 
 .profile-photo {
