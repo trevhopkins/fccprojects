@@ -63,13 +63,13 @@ h1 {
 
 .ContactLinks li {
     list-style-type: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .ContactLinks a {
     color: var(--theme-black);
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .ContactLinks a:hover {
